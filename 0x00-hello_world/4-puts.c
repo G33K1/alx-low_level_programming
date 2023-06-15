@@ -1,7 +1,17 @@
 #include <stdio.h>
 
-int main() {
-    const char *message = "Programming is like building a multilingual puzzle\n";
-    puts(message);
-    return 0;
+/**
+ * main - Entry point
+ *
+ * Description: print a message
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	const char *mess = "\"Programming is like building a multilingual puzzle\n";
+
+	puts(mess);
+	return (0);
 }
